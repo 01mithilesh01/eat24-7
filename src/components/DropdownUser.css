@@ -1,0 +1,42 @@
+.services-submenu {
+    width: 180px;
+    position: absolute;
+    top: 65px;
+    list-style: none;
+    text-align: start;
+    z-index: 10;
+    right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background: #fff;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    box-shadow: 0 25px 60px -20px #fff;
+    transition: 1s ease-in;
+  }
+  
+  .services-submenu li {
+    cursor: pointer;
+    
+  }
+  
+  .services-submenu li a:hover {
+    font-size: 16px;
+    font-weight: 600;
+    transition: .1s ease-in-out;
+  }
+  
+  .services-submenu.clicked {
+    display: none;
+    transition: 1s ease-in-out;
+  }
+  
+  .submenu-item {
+    display: block;
+    width: 100px;
+    height: 100%;
+    text-decoration: none;
+    color: #3d4152;
+    padding: 16px; 
+  }

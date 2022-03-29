@@ -1,0 +1,50 @@
+.OrderPlaced_MainSection{
+    margin-top: 8%;
+    margin-left: 28%;
+    margin-right: 10%;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color: #e8e8e8;
+    width: 600px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.OrderPlaced_UserName{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.OrderPlaced_YourOrderConfirmed{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.OrderPlaced_Email{
+    margin-top: 10px;
+}
+.OrderPlaced_Button{
+    margin-top: 20px;
+    border: none;
+    background-color: #fc8019;
+    color: white;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1;
+    text-align: center;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.OrderPlaced_CheckImage{
+    /* margin-top: 40px; */
+    width: 50px;
+    height: 50px;
+}

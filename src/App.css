@@ -1,0 +1,10 @@
+*{
+  margin:0;
+  scroll-behavior: smooth;
+}
+
+.Helmet_Title{
+  display: block;
+  font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+  color: orangered;
+}

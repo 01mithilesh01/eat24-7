@@ -1,0 +1,65 @@
+
+.Navbar{
+    background-color: white;
+    height: 65px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    /* position: sticky;
+    z-index: 100;
+    top: 0px;*/
+    box-shadow: 0 15px 40px -20px rgb(40 44 63 / 15%); 
+}
+.logo{
+    font-family: 'Andada Pro', serif;
+    color: orangered;
+    /* font-weight: bolder; */
+}
+
+.Navbar_icons{
+    display: flex;
+    position: relative;
+}
+
+
+.Search, .Help, .Sign_In, .Cart{
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    display: flex;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 40px;
+    color: #3d4152;
+    cursor: pointer;
+}
+.Search:hover, .Help:hover, .Sign_In:hover, .Cart:hover{
+    color: orangered;
+}
+.Navbar_icons .link{
+    display: flex;
+}
+.Navbar_icons span{
+    margin-left: 5px;
+    padding-top: 3px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+.link{
+    color: #3d4152;
+}
+
+.link:hover{
+    color: orangered;
+}
+
+a.active_class{
+    color: orangered;
+}
+
+
+
+

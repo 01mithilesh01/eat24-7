@@ -1,0 +1,445 @@
+.SignIn_Page{
+    display: flex;
+    margin-bottom: 50px;
+}
+.Login{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 400px;
+}
+.Login_Description{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.Login_Heading{
+    display: flex;
+    justify-content: space-between;
+}
+.SignInFood{
+    width: 100px;
+}
+.Login_Email_Box{
+    width: 95%;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+    box-shadow: 0px 0px 1.3px 1px rgba(0,0,0,0.3);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    outline: none !important;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-right: -20px;
+    background-color: transparent;
+    color: #3d4152;
+}
+
+
+.Login_Email{
+    position: relative;
+}
+.Login_Email_label{
+    position: absolute;
+    top: 43px;
+    left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    color: #838591;
+    transition: .5s;
+    cursor: text;
+    z-index: -2;
+}
+.Login_Email input:focus ~ label{
+    top: 28px;
+    font-size: 13px;
+    font-weight: 600;
+    
+}
+.Login_Button{
+    background-color: #fc8019;;
+    border: none;
+    color: white;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    width: 400px;
+    height: 65px;
+    margin-top: 20px;
+    font-weight: 600;
+    /* margin-left: 1px;  */
+}
+.Login_Email_label_filled{
+    top: 28px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Login_Password{
+    position: relative;
+}
+
+.Login_Password_Box{
+    width: 95%;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+    box-shadow: 0px 0px 1.3px 1px rgba(0,0,0,0.3);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    outline: none !important;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-right: -20px;
+    background-color: transparent;
+    color: #3d4152;
+}
+
+
+.Login_Password_label{
+    position: absolute;
+    top: 42px;
+    left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    color: #838591;
+    transition: .5s;
+    cursor: text;
+    z-index: -2;
+}
+.Login_Password input:focus ~ label{
+    top: 28px;
+    font-size: 13px;
+    font-weight: 600;
+    
+}
+.Login_Password_label_filled{
+    top: 28px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Login_Email, input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.SignUp{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 400px;
+}
+.SignUp_Heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.SignUp_Description{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.SignUp_PhoneNo_Box{
+    width: 95%;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+    box-shadow: 0px 0px 1.3px 1px rgba(0,0,0,0.3);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    outline: none !important;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-right: -20px;
+    background-color: transparent;
+}
+   
+.SignUp_PhoneNo{
+    position: relative;
+}
+
+.SignUp_PhoneNo_label{
+    position: absolute;
+    top: 43px;
+    left: 20px;
+    color: #838591;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3em;   
+    transition: .5s;
+    cursor: text;
+    z-index: -2;
+}
+.SignUp_PhoneNo_label_filled{
+    top: 28px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.SignUp_PhoneNo input:focus ~ label{
+    top: 28px;
+    font-size: 13px;
+    font-weight: 600;
+    
+}
+.SignUp_Button{
+    background-color: #fc8019;;
+    border: none;
+    color: white;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    width: 400px;
+    height: 65px;
+    margin-top: 20px;
+    /* margin-left: 1px;  */
+}
+
+
+.SignUp_PhoneNo, input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.PhoneNo{
+    margin: 0;
+    padding: 0;
+}
+.Name{
+    margin: 0;
+    padding: 0;
+}
+.SignUp_Name_Box{
+    width: 95%;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+    box-shadow: 0px 0px 1.3px 1px rgba(0,0,0,0.3);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    outline: none !important;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-right: -20px;
+    background-color: transparent;
+}
+
+.SignUp_Name{
+    position: relative;
+}
+.SignUp_Name_label{
+    position: absolute;
+    top: 127px;
+    left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    color: #838591;
+    transition: .5s;
+    cursor: text;
+    z-index: -2;
+}
+.SignUp_Name_label_filled{
+    top: 115px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.Name input:focus ~ label{
+    top: 115px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+.SignUp_Email_Box{
+    width: 95%;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+    box-shadow: 0px 0px 1.3px 1px rgba(0,0,0,0.3);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    outline: none !important;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-right: -20px;
+    background-color: transparent;
+}
+
+.SignUp_Email{
+    position: relative;
+}
+.SignUp_Email_label{
+    position: absolute;
+    top: 215px;
+    left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    color: #838591;
+    transition: .5s;
+    cursor: text;
+    z-index: -2;
+}
+.SignUp_Email_label_filled{
+    top: 200px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.Email input:focus ~ label{
+    top: 200px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+.SignUp_Password_Box{
+    width: 95%;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+    box-shadow: 0px 0px 1.3px 1px rgba(0,0,0,0.3);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    outline: none !important;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-right: -20px;
+    background-color: transparent;
+}
+
+.SignUp_Password{
+    position: relative;
+}
+.SignUp_Password_label{
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    color: #838591;
+    transition: .5s;
+    cursor: text;
+    z-index: -2;
+}
+.SignUp_Password_label_filled{
+    top: 285px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.Password input:focus ~ label{
+    top: 285px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.SignUp_Button{
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+.SignUp_PasswordConfirm_Box{
+    width: 95%;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+    box-shadow: 0px 0px 1.3px 1px rgba(0,0,0,0.3);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    outline: none !important;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-right: -20px;
+    background-color: transparent;
+}
+
+.SignUp_PasswordConfirm{
+    position: relative;
+}
+.SignUp_PasswordConfirm_label{
+    position: absolute;
+    top: 385px;
+    left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    color: #838591;
+    transition: .5s;
+    cursor: text;
+    z-index: -2;
+}
+.SignUp_PasswordConfirm_label_filled{
+    top: 373px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.PasswordConfirm input:focus ~ label{
+    top: 373px;
+    font-size: 13px;
+    font-weight: 600;
+}
+

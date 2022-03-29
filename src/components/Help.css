@@ -1,0 +1,71 @@
+.Section_help{
+    /* margin: 0; */
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    background-color: #37718e;
+    color: #fff;
+}
+.help{
+    margin: 0;
+    margin-bottom: 4px;
+    
+}
+.help_tagline{
+    font-size: 16px;
+}
+
+.Help_content{
+    margin: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #37718e;
+    height: 100%;
+}
+.Help_content_2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #fff;
+    padding-right: 50px;
+    height: 100%;
+    display: flex;
+}
+
+.Help_sidebar{
+    margin-left: 50px;
+    background-color: #edf1f7;
+    padding-top: 20px;
+    padding-left: 20px;
+    flex: 0.2;
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+}
+
+.Partner, .Legal, .FAQ{
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    font-size: 16px;
+    color: #535665;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Questions{
+    background-color: #fff;
+    flex: 0.8;
+}
+
+.activeHelpComponent{
+    background-color: #fff;
+}
+
+.active{
+    background-color: #fff;
+    color: black;
+}

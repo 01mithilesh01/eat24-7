@@ -1,0 +1,60 @@
+.MenuItem_Veg_NonVeg{
+    width: 18px;
+    height: 18px;
+    margin-bottom: 15px;
+}
+
+.MenuItem_MenuName{
+    color: #3e4152;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    margin-bottom: 15px;
+}
+
+.MenuItem_Price{
+    font-size: 15px;
+    font-weight: 500;
+    color: #3e4152;
+    margin-bottom: 35px;
+}
+
+.MenuItem_Add_Button{
+    color: #60b246;
+    font-size: 13px;
+    font-weight: 600;
+    width: 96px;
+    height: 35px;
+    border: 1px solid #d4d5d9;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.MenuItem_Add_Button span{
+    padding-top: 10px;
+}
+.MenuItem_Add_Button:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.MenuItem_Info{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.MenuItem_minus{
+    padding-top: 7px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: #d4d5d9;
+    height: 100;
+}
+.MenuItem_plus{
+    padding-top: 7px; 
+    padding-right: 10px;
+    font-size: 18px;
+    height: 100%;
+}

@@ -1,0 +1,75 @@
+.DisplayName_heading_options{
+    margin-bottom: 20px;
+}
+
+.DisplayMenu_heading{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    color: #282c3f;    
+}
+.DisplayMenu_options{
+    margin-top: 5px;
+    margin-bottom: 40px;
+    font-size: 13px;
+    color: #686b78;
+    font-weight: 600;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.DisplayName_Veg_NonVeg{
+    width: 18px;
+    height: 18px;
+    margin-bottom: 15px;
+}
+
+.DisplayName_MenuName{
+    color: #3e4152;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    margin-bottom: 15px;
+}
+
+.DisplayName_Price{
+    font-size: 15px;
+    font-weight: 500;
+    color: #3e4152;
+    margin-bottom: 35px;
+}
+
+.DisplayMenu_hr{
+    border-left: 0px;
+    border-top-width: 0px;
+    margin-bottom: 40px;
+    border-width: 2px;
+    width: 70%;
+}
+
+.DisplayMenu_hrDark{
+    border-left: 0px;
+    margin-bottom: 40px;
+    width: 70%;
+    border-bottom: 2px solid #282c3f
+}
+
+.DisplayName_Add_Button{
+    padding-top: 10px;
+    color: #60b246;
+    font-size: 13px;
+    font-weight: 600;
+    width: 96px;
+    height: 25px;
+    border: 1px solid #d4d5d9;
+    text-align: center;
+    cursor: pointer;
+}
+.DisplayName_Add_Button:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.DisplayName_Info{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}

@@ -1,0 +1,41 @@
+.DisplaySearchRestuarant_div{
+    display: flex;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.DisplaySearchRestuarant_div:hover{
+    background: #f1f4f9;;
+}
+
+.RestuarantImage_DSR{
+    height: 40px;
+    width: 40px;
+    border-radius: 3px;
+}
+
+.RestuarantName_DSR{
+    font-weight: 600;
+    color: #282c3f;
+    font-size: 14px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.RestuarantName_Type_DSR{
+    font-size: 13px;
+    color: #7e808c;
+    letter-spacing: -.15px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+    
+.SearchRestuarant_box_DSR{
+    margin-top: 4px;
+    margin-left: 15px;
+}
+
+.RestuarantName_Type_DSR{
+    margin-top: 1px;
+}

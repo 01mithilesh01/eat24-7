@@ -1,0 +1,79 @@
+.DisplayPastOrder_Section{
+    padding: 20px;
+    border: 1px solid #d4d5d9;
+    margin-bottom: 20px;
+
+}
+
+.DisplayPastOrder_RestuarantImage{
+    width: 150px;
+    height: 100px;
+    margin-right: 10px;
+}
+.DisplayPastOrder_RestuarantInfo{
+    display: flex;
+    
+}
+
+.DisplayPastOrder_RestuarantName{
+    font-size: 17px;
+    font-weight: 600;
+    color: #3d4152;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    cursor: pointer;
+}
+.DisplayPastOrder_OrderId{
+    margin-top: 6px;
+    color: #7e808c;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+.DisplayPastOrder_OrderDate{
+    margin-top: 6px;
+    color: #7e808c;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.DisplayPastOrder_Section hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px #d4d5d9; 
+}
+
+.DisplayPastOrder_MenuSection{
+    display: flex;
+    justify-content: space-between;
+}
+.DisplayPastOrder_Menu{
+    flex: 0.6;
+    font-size: 14px;
+    color: #282c3f;
+    line-height: 20px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+.DisplayPastOrder_Bill{
+    flex: 0.2;
+    font-size: 14px;
+    color: #282c3f;
+    line-height: 20px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.DisplayPastOrder_delivered{
+    display: flex;
+    position: absolute;
+    /* margin-left: 40%; */
+    color: #282c3f;
+    font-weight: 600;
+    right: 21.25%;
+    /* font-family: ProximaNova,arial,Helvetica Neue,sans-serif; */
+}
+.DisplayPastOrder_delivered img{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}

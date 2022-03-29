@@ -1,0 +1,33 @@
+.RestuarantInfo_take_input{
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-bottom: 200px;
+}
+
+.RestuarantInfo_input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 30px;
+    line-height: 25px;
+    font-size: 20px ;
+}
+
+.RestuarantInfo_upload_button{
+    background-color: rgb(69, 69, 248);
+    color: white;
+    height: 30px;
+    width: 200px;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+}
+.RestuarantInfo_take_input h1{
+    margin-bottom: 40px;
+}
+
+.imageupload__progress {
+    margin-top: 50px;
+    width: 100%;
+  }

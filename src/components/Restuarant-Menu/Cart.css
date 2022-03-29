@@ -1,0 +1,997 @@
+
+body{
+    overflow-x: hidden;
+}
+.Cart_Section{
+    background-color: #e9ecee;
+    padding-top: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* padding-bottom: 50px; */
+    display: flex;
+    justify-content: space-between;
+    height: 100%;  
+}
+
+.Ordered_Menu_Section_Cart{
+    padding-top: 25px;
+    padding-left: 30px;
+    background-color: white;
+    flex: 0.3;
+    padding-bottom: 5px;
+    height: 100%;
+}
+.scroll{
+    padding-right: 30px;
+    height: 350px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.Restuarant_Details_Cart{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.Restuarant_Image_Cart{
+    width: 50px;
+    height: 50px;
+}
+.Restuarant_Name_Cart{
+    margin-top: 5px;
+    margin-left: 12px;
+    font-size: 17px;
+    color: #282c3f;
+    font-weight: 600;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+
+.Add_Address_Box{
+    border: 1px solid #e9e9eb;
+    width: 294px;
+    height: 218px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+
+}
+.Add_Address_Box1{
+    /* border: 1px solid #e9e9eb; */
+    width: 294px;
+    height: 118px;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+.Add_Address_Box:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.Address_Section_Cart{
+    background-color: white;
+    flex: 0.7;
+    padding: 30px;
+    margin-left: 30px;
+}
+.Address_Section_Sub{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Address_Heading_Cart{
+    font-size: 32px;
+    font-weight: 600;
+    color: #282c3f;
+}
+.Order_Details_Cart{
+    margin-top: 0px;
+}
+
+.Menu_Display{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.Menu_Add_Button{
+    color: #60b246;
+    font-size: 13px;
+    font-weight: 600;
+    width: 75px;
+    height: 30px;
+    border: 1px solid #d4d5d9;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Menu_minus{
+    padding-top: 3px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #d4d5d9;
+    height: 100;
+}
+.Menu_plus{
+    padding-top: 5px; 
+    padding-right: 10px;
+    font-size: 16px;
+    height: 100%;
+}
+
+.Menu_Add_Button span{
+    padding-top: 8px;
+}
+.Menu_Add_Button:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.Menu_Veg_NonVeg{
+    width: 16px;
+    height: 16px;
+}
+
+.Menu_Name{
+    /* margin-top: 5px; */
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #282c3f;
+}
+
+.Menu_Display_subsection1{
+    margin-top: 5px;
+    flex: 0.4;
+    display: flex;
+}
+
+.Menu_Price{
+    margin-top: 5px;
+    flex: 0.3;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #535665;
+    font-weight: 500;
+}
+
+.Restuarant_Coupen_Cart{
+    margin-top: 25px;
+    border: 1px dashed #a9abb2;
+    color: #535665;
+    font-size: 14px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.Restuarant_Coupen_Cart img{
+    width: 22px;
+    height: 22px;
+    color: #282c3f;
+}
+
+.Apply_Coupon{
+    color: #535665;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 2px;
+    font-weight: 600;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.Restuarant_Coupen_Cart:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+
+
+.Bill_Details{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #282c3f;
+}
+
+.Item_Total{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.Item_Total_heading{
+    font-size: 13px;
+    color: #686b78;
+}
+.Item_Total_Price{
+    font-size: 13px;
+    color: #686b78;
+
+}
+
+.Delivery{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.Delivery_heading{
+    font-size: 13px;
+    color: #686b78;
+}
+
+.Delivery_fees{
+    font-size: 13px;
+    color: #686b78;
+}
+.Tax_Charges{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Tax_Charges_heading{
+    font-size: 13px;
+    color: #686b78;
+}
+
+.Tax_Charges_fees{
+    font-size: 13px;
+    color: #686b78;
+}
+
+.To_Pay{
+    margin-top: 40px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+.TO_PAY_heading{
+    font-size: 13px;
+    color: #282c3f;
+    font-weight: 600;
+}
+.TO_PAY_fees{
+    font-size: 13px;
+    font-weight: 600;
+    color: #282c3f;   
+}
+
+
+
+
+.Address_Section_Cart{
+    padding-top: 25px;
+    padding-left: 30px;
+}
+.Address_Section_heading{
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #282c3f;
+    margin-bottom: 20px;
+}
+
+
+.Add_Address{
+    display: flex;
+}
+
+.Address{
+    margin-left: 10px;
+}
+.Address .add{
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    font-size: 13px;
+    color: #93959f;
+    margin-bottom: 8px;
+    font-weight: 300;
+    line-height: 16px;
+    height: 64px;
+}
+
+.Add_Address img{
+    height: 20px;
+    width: 20px;
+}
+
+.Address .heading{
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #282c3f;
+    line-height: 1.18;
+    text-transform: capitalize;
+}
+
+
+.Deliver_Here_Button{
+    color: #fff;
+    background: #60b246;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-top: 8px;
+    width: 130px;
+    height: 26px;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: .3px;
+}
+.Deliver_Here_Button span{
+    background: #60b246;
+}
+
+.Add_New_Button{
+    border: 1px solid #60b246;
+    color: #60b246;
+    background: #fff;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-top: 8px;
+    width: 130px;
+    height: 26px;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: .3px;
+}
+
+
+.Offer_Coupen_Card{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: 10000;
+    height: 94%;
+    width: 467px;
+    background: #ffffff;
+    transform: translateX(-100%);
+    transition: all 0.3s linear;
+    padding-top: 38px;
+    display: grid;
+    grid-column: 1;
+}
+
+.Offer_Coupen_Card_Active{
+    transform: translateX(0);
+    
+}
+
+.blueFrame{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    background: #282c3f;
+    opacity: .7;
+}
+
+.Cart_Section_Offer_Card_Active{
+    z-index: 10000;
+    background: #282c3f;
+    opacity: .7;
+    /* overflow: hidden; */
+}
+.close_button_Coupen_Card{
+    margin-left: auto;
+    margin-right: 18px;
+    margin-bottom: 20px;
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+
+.Coupen_Box{
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 330px;
+    height: 200px;
+    border: 1px solid #e9e9eb;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.body{
+    overflow: hidden;
+}
+
+.Offer_Coupen_Card > html{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.last_Div{
+    /* width: 20px; */
+    height: 20px;
+}
+
+
+.Available_Coupen{
+    color: rgb(126, 128, 140);
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    color: #7e808c;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.Coupen_Code{
+    display: flex;
+    margin-top: 30px;
+    background-color: #fffae6;
+    max-width: 120px;
+    width: 100%;
+    height: 25px;
+    border: 1px solid #daceb7;
+    padding-top: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #282c3f;
+}
+
+.Coupen_Code img{
+    padding-right: 15px;
+    height: 20px;
+    width: 20px;
+}
+
+.Coupen_Offer_Cart{
+    margin-top: 20px;
+    color: #3e4152;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.Coupen_Box .Description{
+    color: #686b78;
+    font-size: 13px;
+    margin-top: 9px;
+    line-height: 1.5;
+}
+
+
+
+
+
+.Address_Card{
+    position: absolute;
+    top: 0px;
+    
+    right: 0;
+    z-index: 10000;
+    height: 100%;
+    width: 467px;
+    background: #ffffff;
+    transform: translateX(+100%);
+    transition: all 0.3s linear;
+    padding-top: 38px;
+    /* display: grid;
+    grid-column: 1; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.Address_Card_Active{
+    transform: translateX(0);
+}
+
+.close_button_Address_Card{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+.Address_Card_header{
+    display: flex;
+    height: 15px;
+    padding-bottom: 20px;
+    box-shadow: 0 2px 4px 0 #e9e9eb;
+    z-index: 1000000;
+}
+
+.Address_Card_header .heading{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #282c3f;
+    line-height: 1.2rem;
+    margin-left: 30px;
+    margin-top: -2px;
+    
+}
+
+
+
+
+
+
+
+
+.FlatNumber_Box{
+    width: 80%;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 1.3px 1px rgba(0,0,0,0.3);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    outline: none !important;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-right: -20px;
+    background-color: transparent;
+    color: #3d4152;
+}
+ .FlatNumber{
+    position: relative;
+}
+
+.Flat_Number_label{
+    position: absolute;
+    top: 42px;
+    left: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    color: #838591;
+    transition: .5s;
+    cursor: text;
+    z-index: -2;
+} 
+
+
+ .FlatNumber input:focus ~ label{
+    top: 28px;
+    font-size: 13px;
+    font-weight: 600;    
+}
+.Flat_Number_filled{
+    top: 28px;
+    font-size: 13px;
+    font-weight: 600;
+} 
+
+
+
+
+
+
+
+
+
+
+.BuildingName_Box{
+    width: 80%;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 1.3px 1px rgba(0,0,0,0.3);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    outline: none !important;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-right: -20px;
+    background-color: transparent;
+    color: #3d4152;
+}
+ .BuildingName{
+    position: relative;
+}
+
+.BuildingName_label{
+    position: absolute;
+    top: 42px;
+    left: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    color: #838591;
+    transition: .5s;
+    cursor: text;
+    z-index: -2;
+} 
+
+
+ .BuildingName input:focus ~ label{
+    top: 28px;
+    font-size: 13px;
+    font-weight: 600;    
+}
+.Building_filled{
+    top: 28px;
+    font-size: 13px;
+    font-weight: 600;
+} 
+
+
+
+.StreetName_Box{
+    width: 80%;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 1.3px 1px rgba(0,0,0,0.3);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    outline: none !important;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-right: -20px;
+    background-color: transparent;
+    color: #3d4152;
+}
+ .StreetName{
+    position: relative;
+}
+
+.StreetName_label{
+    position: absolute;
+    top: 42px;
+    left: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    color: #838591;
+    transition: .5s;
+    cursor: text;
+    z-index: -2;
+} 
+
+
+ .StreetName input:focus ~ label{
+    top: 28px;
+    font-size: 13px;
+    font-weight: 600;    
+}
+.StreetName_filled{
+    top: 28px;
+    font-size: 13px;
+    font-weight: 600;
+} 
+
+
+
+.CityName_Box{
+    width: 80%;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 1.3px 1px rgba(0,0,0,0.3);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    outline: none !important;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-right: -20px;
+    background-color: transparent;
+    color: #3d4152;
+}
+ .CityName{
+    position: relative;
+}
+
+.CityName_label{
+    position: absolute;
+    top: 42px;
+    left: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    color: #838591;
+    transition: .5s;
+    cursor: text;
+    z-index: -2;
+} 
+
+
+ .CityName input:focus ~ label{
+    top: 28px;
+    font-size: 13px;
+    font-weight: 600;    
+}
+.CityName_filled{
+    top: 28px;
+    font-size: 13px;
+    font-weight: 600;
+} 
+
+
+
+.StateName_Box{
+    width: 80%;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 1.3px 1px rgba(0,0,0,0.3);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    outline: none !important;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-right: -20px;
+    background-color: transparent;
+    color: #3d4152;
+}
+ .StateName{
+    position: relative;
+}
+
+.StateName_label{
+    position: absolute;
+    top: 42px;
+    left: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    color: #838591;
+    transition: .5s;
+    cursor: text;
+    z-index: -2;
+} 
+
+
+ .StateName input:focus ~ label{
+    top: 28px;
+    font-size: 13px;
+    font-weight: 600;    
+}
+.StateName_filled{
+    top: 28px;
+    font-size: 13px;
+    font-weight: 600;
+} 
+
+
+
+
+
+.Pincode_Box{
+    width: 80%;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 1.3px 1px rgba(0,0,0,0.3);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    outline: none !important;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-right: -20px;
+    background-color: transparent;
+    color: #3d4152;
+}
+ .Pincode{
+    position: relative;
+}
+
+.Pincode_label{
+    position: absolute;
+    top: 42px;
+    left: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3em;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    color: #838591;
+    transition: .5s;
+    cursor: text;
+    z-index: -2;
+} 
+
+
+ .Pincode input:focus ~ label{
+    top: 28px;
+    font-size: 13px;
+    font-weight: 600;    
+}
+.Pincode_filled{
+    top: 28px;
+    font-size: 13px;
+    font-weight: 600;
+} 
+
+
+.buttton{
+    /* margin-top: 80px; */
+    margin-left: 30px;
+    padding-top: 20px;
+    padding-left: 91px;
+    padding-right: 91px;
+    padding-bottom: 20px;
+    background-color: #FC8019;
+    color: #ffffff;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Save_Address{
+    padding-top: 40px;
+    padding-bottom: 15px;
+    position: absolute;
+    bottom: 0;
+    position: sticky;
+    width: 100%;
+    /* z-index: 1000000; */
+    background: #fff;
+    height: 10%;
+    box-shadow: 0 -2px 4px 0 #e9e9eb;
+    cursor: pointer;
+}
+
+.Save_And_Proceed{
+    margin-left: 30px;
+    margin-right: 45px;
+    background: #FC8019;
+    height: 58%;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+    color: #ffffff;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 25px;
+}
+.Address_Card form{
+    height: 100%;
+}
+
+
+.Address_Form_Div{
+    height: 72%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+
+.orderButton{
+    margin-top: 40px;
+    background-color:  #FC8019;
+    border: 0;
+    width: 100%;
+    color: #ffffff;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 85px;
+    padding-left: 85px;
+    cursor: pointer;
+}
+
+.mapImage{
+    width: 460px;
+    height: 400px;
+}
+
+.Address_Section_heading_sub{
+    display: flex;
+}
+
+.OfferAppliedToBill{
+    margin-top: -5px;
+    color: #3d4152;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Offer_applied_on_bill{
+    margin-top: 2px;
+    font-size: 12px;
+    color: #93959f;
+
+}
+
+.Restuarant_Applied_Coupen_Cart{
+    margin-top: 25px;
+    border: 1px dashed #a9abb2;
+    color: #535665;
+    font-size: 14px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    justify-content: space-between;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+.Restuarant_Applied_Coupen_Cart .OfferAppliedToBill{
+    font-weight: 600;
+}
+.removeCoupen{
+    cursor: pointer;
+    margin-top: 3px;
+    margin-left: 8px;
+    font-weight: 600;
+    color: #282c3f;
+    font-size: 14px;
+}
+
+.emptyCartSection{
+    margin-top: 40px;
+}
+.emptyCartImage{
+    width: 271px;
+    height: 256px;
+}
+
+.emptyCartSection{
+    text-align:  center;
+}
+
+
+.cartMessage1{
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #535665;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+.cartMessage2{
+    margin-top: 8px;
+    color: #7e808c;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    font-size: 14px;
+}
+
+.moveToHomePage{
+    margin-top: 30px;
+    padding: 11px 20px;
+    text-transform: uppercase;
+    background-color: #fc8019;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    font-size: 15px;
+    text-align: center;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}

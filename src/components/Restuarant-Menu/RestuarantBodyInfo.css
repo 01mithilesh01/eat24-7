@@ -1,0 +1,44 @@
+.RetuarantBodyInfo_main{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    scroll-behavior: inherit;
+}
+.RestuarantBodyInfo_sidebar{
+    flex: 0.2;
+    align-content: center;
+    height: 100%;
+    position: sticky;
+    top: 20px;
+    z-index: 100;
+}
+.RestuarantBodyInfo_sidebar div{
+    text-align: right;
+    margin-bottom: 12px;
+    color: #282c3f;
+    font-size: 16px;
+    font-weight: 500;
+    text-overflow: ellipsis;
+}
+.RestuarantBodyInfo_activeHighlight .RestuarantBodyInfo_Sidebar_Item{
+    color: #fc8019;
+}
+.RestuarantBodyInfo_sidebar div a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.RestuarantBodyInfo_sidebar div:hover{
+    color: #fc8019;
+    cursor: pointer;
+}
+.RestuarantBodyInfo_body{
+    padding-left: 50px;
+    flex: 0.8;
+}
+
+.RestuarantBodyInfo_sidebar li{
+    list-style: none;
+}

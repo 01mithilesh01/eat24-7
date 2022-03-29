@@ -1,0 +1,259 @@
+.Section-1{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.Offers{
+    display: flex;
+}
+
+.Offer__Sidebar{
+    font-family: Arial,Helvetica Neue,sans-serif;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px 0.5px rgba(0,0,0,0.3);       
+    flex: 0.2;
+    padding-left: 0px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    height: 100%;
+    position: sticky;
+    /* top: 65px; */
+    top: 0px;
+    /* z-index: 99; */
+}
+.Offers_Near_You, .Top_Picks, .Whats_New, .Vegeterian_Options, .See_All{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+
+}
+a{
+    text-decoration: none;
+}
+
+.Offer__img{
+    height: 45px;
+    width: 45px;
+    border-radius:  50%;    
+    transition: 0.5s ease-in-out; 
+    
+}
+
+
+/* hover effect */
+.Offers_Near_You:hover img { 
+    transform: scale(1.2); 
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+} 
+
+.Top_Picks:hover img{
+    transform: scale(1.2); 
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+}
+.Whats_New:hover img { 
+    transform: scale(1.2); 
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+} 
+.Vegeterian_Options:hover img{
+    transform: scale(1.2); 
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+}
+.See_All:hover img{
+    transform: scale(1.2); 
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+}
+
+.Offers_Near_You:hover .Offer__div p{
+    color: #ec6f5b;
+}
+.Top_Picks:hover .Offer__div p{
+    color: #ec6f5b;
+}
+.Whats_New:hover .Offer__div p{
+    color: #ec6f5b;
+}
+.Vegeterian_Options:hover .Offer__div p{
+    color: #ec6f5b;
+}
+.See_All:hover .Offer__div p{
+    color: #ec6f5b;
+}
+.Offers_Near_You:hover .Offer__div div{
+    color: #ec6f5b;
+}
+.Top_Picks:hover .Offer__div div{
+    color: #ec6f5b;
+}
+.Whats_New:hover .Offer__div div{
+    color: #ec6f5b;
+}
+.Vegeterian_Options:hover .Offer__div div{
+    color: #ec6f5b;
+}
+.See_All:hover .Offer__div div{
+    color: #ec6f5b;
+}
+
+
+.Offer__div{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.Offer__div div{
+    line-height: 1.2;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3d4152;
+}
+
+.Offer__div p{
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 4px;
+    opacity: 0.8;
+    color: #282c3f;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.Section_Offer_Restuarants{
+    flex: 0.8;
+    padding-top: 0px;
+    padding-left: 40px;
+    /* padding-right: 50px; */
+}
+
+
+
+
+
+
+/* Offers Near You */
+.Section_Offers_Near_You{
+    font-family: Arial,Helvetica Neue,sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #3d4152;
+    padding-top: 50px;
+    margin-bottom: 35px;
+}
+.Resturants{
+    margin: 0;
+    padding: 0;
+    display: flex;   
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.Resturant1{
+    position: relative;
+}
+
+.Section__Inbetween__hr{
+    opacity: 0.4;
+    margin-right: 40px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.Section_Top_Picks, .Section_Whats_New{
+    font-family: Arial,Helvetica Neue,sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #3d4152;
+    padding-top: 50px;
+    margin-bottom: 35px;
+}
+
+.activeHighlight{
+    background-color: #F7D08A; 
+    
+}
+
+
+.activeHighlight .Offer__div div{
+    color: #ec6f5b;
+}
+ 
+.activeHighlight .Offer__div p{
+    color: #ec6f5b;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+
+ 
+.activeHighlight .Offers_Near_You:hover img{
+    transform: scale(1.0); 
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+}
+.activeHighlight .Top_Picks:hover img{
+    transform: scale(1.0); 
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+}
+.activeHighlight .Whats_New:hover img{
+    transform: scale(1.0); 
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+}
+.activeHighlight .Vegeterian_Options:hover img{
+    transform: scale(1.0); 
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+}
+
+.Offer__Sidebar li{
+    list-style: none;
+    padding-left: 15px;
+}
+
+.Offer__Sidebar ul{
+    width: 100%;
+    padding:0;
+    list-style: none;
+}
+
+
+
+.Section-2{
+    margin: 0;
+    margin-top: 100px;
+    /* padding-bottom: 20px; */
+    /* height: 500px; */
+    height: 100%
+}
+
+.Section-2 .heading{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+    font-size: 32px;
+    font-weight: 600;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    background-color: #ec6f5b;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.section-2-restaurants-main{
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #ec6f5b;
+    
+}
+
+.section-2-restaurants{
+    margin: 0;
+    background-color: #fff;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    padding-bottom: 20px;
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: space-between;
+    grid-row: auto;
+}
+
+
